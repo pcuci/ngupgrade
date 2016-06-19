@@ -1,0 +1,17 @@
+{
+  "name": "ngupgrade",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pcuci/ngupgrade",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.6",
+    "angular-animate": "1.4.6",
+    "angular-mocks": "1.4.6",
+    "angular-resource": "1.4.6",
+    "angular-route": "1.4.6",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x"
+  }
+}
