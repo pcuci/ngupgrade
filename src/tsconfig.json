@@ -17,6 +17,12 @@
   },
   "files": [
     "main.ts",
-    "typings.d.ts"
+    "typings.d.ts",
+    "app/contact-detail-component/contact-detail-component.ts",
+    "app/contact-editor-component/contact-editor-component.ts",
+    "app/contact-header-component/contact-header-component.ts",
+    "app/contacts-list-component/contacts-list-component.ts",
+    "app/contacts-service/contacts-service.ts",
+    "app/zippy-component/zippy-component.ts"
   ]
 }

@@ -1,10 +1,11 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
 import { AppComponent, environment } from './app/';
-import { upgradeAdapter } from './upgrade-adapter';
+import { upgradeAdapter } from './app/upgrade_adapter';
+import "angular2-materialize";
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(AppComponent);
+upgradeAdapter.bootstrap(document.body, ['contacts-app']);
