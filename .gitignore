@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+/src/bower_components
 
 # dependencies
 /node_modules
