@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Ngupgrade</title>
-
     <base href="/">
+
     {{#unless environment.production}}
       <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
     {{/unless}}
@@ -30,18 +29,17 @@
     <script src="app/contacts-list-component/contacts-list-component.js"></script>
     <script src="app/contact-detail-component/contact-detail-component.js"></script>
     <script src="app/contact-editor-component/contact-editor-component.js"></script>
+
   </head>
   <body>
     {{#each scripts.polyfills}}
-      <script src="{{.}}"></script>
+    <script src="{{.}}"></script>
     {{/each}}
     <script>
       System.import('system-config.js').then(function () {
         System.import('main');
       }).catch(console.error.bind(console));
     </script>
-    <div class="view-container">
-      <div ng-view class="view-frame"></div>
-    </div>
+    <contacts-app></contacts-app>
   </body>
 </html>
