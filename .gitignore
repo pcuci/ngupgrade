@@ -22,7 +22,7 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
-/typings
+/typings/globals
 
 # e2e
 /e2e/*.js
