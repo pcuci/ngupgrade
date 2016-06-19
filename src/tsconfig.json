@@ -23,6 +23,7 @@
     "app/contact-header-component/contact-header-component.ts",
     "app/contacts-list-component/contacts-list-component.ts",
     "app/contacts-service/contacts-service.ts",
-    "app/zippy-component/zippy-component.ts"
+    "app/zippy-component/zippy-component.ts",
+    "app/downgrades.ts"
   ]
 }
